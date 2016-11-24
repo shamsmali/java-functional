@@ -1,4 +1,4 @@
-package com.shams.java;
+package com.shams.java.sess1;
 
 import java.util.function.BinaryOperator;
 import java.util.function.Predicate;
