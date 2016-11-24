@@ -41,7 +41,7 @@ public class App {
     }
 
     public static Integer sumOfNumbers(UnaryOperator<Integer> func, int n, Predicate<Integer> filter) {
-        return IntStream.range(0, n + 1).filter(filter::test).filter(filter::test).map(func::apply).reduce(sum::apply).getAsInt();
+        return IntStream.range(0, n + 1).filter(filter::test).map(func::apply).reduce(sum::apply).getAsInt();
     }
 
 }
